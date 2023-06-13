@@ -21,7 +21,7 @@ services:
     networks:
       - mysql-phpmyadmin
   mysql:
-    image: mysql
+    image: mysql:8
     restart: always
     networks:
       - mysql-phpmyadmin
